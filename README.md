@@ -83,3 +83,25 @@ npm run dev
 - **Paneles de Secciones y LandingPage**: Generación, seguimiento, historial.
 - **Panel administrativo**: Vista exclusiva para gestionar insumos, categorías, pedidos y estadísticas.
 - **Gestión de imágenes**: Carga de imágenes para productos.
+
+
+- 🔹 **Configurar y ejecutar el Backend**
+
+1. Abre la carpeta del **backend** en IntelliJ IDEA.
+2. Asegúrate de tener **MySQL Workbench** y **MySQL Server** instalados y en ejecución.
+3. Configura la conexión a la base de datos en el archivo `application.properties`:
+
+```properties
+spring.application.name=instrumentos-tp
+
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/instrumentos_db  # Nombre de la BD
+spring.datasource.username=root  # Usuario
+spring.datasource.password=1122  # Contraseña
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=true
+```
+
+## 👤 Integrante
+- **Nombre:** Emiliano Cáceres  
+- Proyecto realizado íntegramente por mí.
