@@ -92,14 +92,14 @@ npm run dev
 3. Configura la conexión a la base de datos en el archivo `application.properties`:
 
 ```properties
-spring.application.name=instrumentos-tp
+spring.application.name=ElBuenSaborBack
 
 spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://localhost:3306/instrumentos_db  # Nombre de la BD
-spring.datasource.username=root  # Usuario
-spring.datasource.password=1122  # Contraseña
+spring.datasource.url=jdbc:mysql://localhost:3306/buensabor
+spring.datasource.username=root
+spring.datasource.password=1122
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.show-sql=true
+spring.jpa.show-sql: true
 ```
 
 ## 👤 Integrante
